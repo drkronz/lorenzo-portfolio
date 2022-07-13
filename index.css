@@ -1,0 +1,62 @@
+		.custom-bg-color {
+			height: 100%;
+			width: 100%;
+			background-color: #4F0000;
+			animation-name: example;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+	  
+		}
+		@keyframes example {
+  			20%   {background-color: #9E4F4C;}
+  			40%  {background-color: #5E2F2D;}
+  			60%  {background-color: #DE6E6A;}
+  			80% {background-color: #EB7571;}
+  			100% {background-color: #C4625E;}
+		
+		}
+
+		body{
+			background-image: url(./images/forest.jpg) ;
+			background-size: 100%;
+			background-repeat: repeat;
+  			background-attachment: fixed;
+  			top: 0; 
+  			left: 0; 
+	 		min-width: auto;
+  			min-height: 100%;
+		}
+
+		* {
+			font-family: "Lucida Console", "Courier New", monospace;
+		}
+
+		h2 {
+			color: white;
+			font-weight: bold;
+		}
+
+
+		.bg-custom-dark{
+			background-image: url(./images/dark.jpg);
+		}
+
+
+		#img1 {
+			width: 150px;
+		}
+
+		#img2 {
+			width: 600px;
+		}
+
+		#img3 {
+			width: 30px;
+			height: 24px;
+		}
+
+		#img4 {
+			width: 60px;
+		}
+
+
